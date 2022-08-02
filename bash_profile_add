@@ -1,0 +1,4 @@
+export TB_HOME=/usr/local/tibero6
+export TB_SID=tibero
+export LD_LIBRARY_PATH=$TB_HOME/lib:$TB_HOME/client/lib
+export PATH=$PATH:$TB_HOME/bin:$TB_HOME/client/bin
