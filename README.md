@@ -43,3 +43,4 @@ $ ./make_img.sh [IMAGE_NAME]
 - [https://docs.docker.com/build/buildx/](https://docs.docker.com/build/buildx/)
 - [https://docs.docker.com/engine/reference/builder/](https://docs.docker.com/engine/reference/builder/)
 - [https://docs.docker.com/engine/reference/commandline/buildx_build/](https://docs.docker.com/engine/reference/commandline/buildx_build/)
+- https://github.com/moby/buildkit/releases
