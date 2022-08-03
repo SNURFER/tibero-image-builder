@@ -1,3 +1,4 @@
+# syntax=docker.io/docker/dockerfile:1.4.2
 FROM ubuntu:20.04
 
 WORKDIR .
