@@ -2,7 +2,7 @@
 make Tibero image with Docker
 
 
-### Prerequisites
+## Prerequisites
 
 - Login to Tmax [TechNet](https://technet.tmaxsoft.com/ko/front/main/main.do)
     - download Tibero6 for Linux (x86) 64-bit and rename it as “tibero.tar.gz”
@@ -12,13 +12,13 @@ make Tibero image with Docker
         
 - Install [Docker](https://docs.docker.com/engine/install/ubuntu/) > 18.09(BuildKit has implemented)
 
-### How to make tibero image
+## How to make tibero image
 
 ```bash
 $ ./make_img.sh [IMAGE_NAME]
 ```
 
-### **The difference from other Tibero images is**
+## **The difference from other Tibero images is**
 
 - All Tibero settings are finished in build time with Ubuntu image 20.04 based
     - By default, `docker build` runs temporal container for Dockerfile `From`  image which hostname is hardcoded by ‘buildkitsandbox’
@@ -34,7 +34,7 @@ $ ./make_img.sh [IMAGE_NAME]
     - without Tibero base image(only Ubuntu)
     
 
-### Referenced
+## Referenced
 
 - [https://github.com/moby/buildkit/issues/1301](https://github.com/moby/buildkit/issues/1301)
 - [https://forums.docker.com/t/customizing-hostname-during-docker-build-phase/13029](https://forums.docker.com/t/customizing-hostname-during-docker-build-phase/13029)
