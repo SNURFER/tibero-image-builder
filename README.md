@@ -8,7 +8,7 @@ make Tibero image with Docker
     - download Tibero6 for Linux (x86) 64-bit and rename it as “tibero.tar.gz”
     - put .tar.gz file in res/ folder
     - get license from TechNet and put license.xml file in /res/ folder
-        <img width="702" alt="스크린샷 2022-08-04 오전 12 52 32" src="https://user-images.githubusercontent.com/42398891/182653146-ec4ec3a2-cd17-4704-8c71-1052c3aaa486.png">
+    <img width="702" alt="스크린샷 2022-08-04 오전 12 52 32" src="https://user-images.githubusercontent.com/42398891/182653146-ec4ec3a2-cd17-4704-8c71-1052c3aaa486.png">
         
 - Install [Docker](https://docs.docker.com/engine/install/ubuntu/) > 18.09(BuildKit has implemented)
 
